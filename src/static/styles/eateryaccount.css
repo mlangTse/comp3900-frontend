@@ -1,0 +1,35 @@
+.account_container .chart_analysis {
+  display: flex;
+  position: relative;
+}
+
+.Total_analysis > h1 {
+  font-size: xx-large;
+}
+
+.analysis_detail {
+  margin-left: 20px;
+  padding: 8px;
+}
+
+.analysis_detail span {
+  display: block;
+  font-size: large;
+}
+
+.account_container > div {
+  margin: 10px 10px;
+}
+
+.sale_analysis {
+  display: block;
+  width: 55%;
+}
+
+.sale_analysis h1 {
+  font-size: x-large;
+}
+
+.sale_detail {
+  width: 40%;
+}

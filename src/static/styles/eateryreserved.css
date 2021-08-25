@@ -1,0 +1,39 @@
+.reserved_bar {
+  display: flex;
+  position: relative;
+  padding-bottom: 0;
+  padding-top: 8px;
+}
+
+.reserved_bar > nav {
+  margin-left: 75%;
+  padding: 8px;
+}
+
+.reserved_bar button{
+  margin: 0 0 0 24px;
+}
+
+.reserved_list_item{
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+}
+
+.reserved_list_item span {
+  border: 1px solid #000;
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+}
+
+.reserved_list_item .delete_btn {
+  display: none;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 35%;
+  border-radius: 50%;
+  background-color: red;
+  right: -1%;
+}

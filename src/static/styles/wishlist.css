@@ -1,0 +1,139 @@
+/* .item_container {
+    background-color: rgb(253, 249, 249);
+    border-radius: 20px;
+    height: 140px;
+    position: relative;
+    display: flex;
+}
+.item_image_area {
+    height: 120px;
+    width: 28%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    position: relative;
+
+}
+
+.item_image {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    
+}
+
+.info_area {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 120px;
+    width: 41%;
+    position: relative;
+    display: flex;
+}
+
+.item_name {
+    height: 24%;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+}
+
+.item_desc {
+    height: 40%;
+    width: 100%;
+    margin-left: 2px;
+    margin-top: 28px;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+}
+.item_rating {
+    margin-top: 75px;
+    margin-left: 2px;
+    position: absolute;
+    font-size:xx-small;
+}
+
+.item_date {
+    margin-top: 94px;
+    margin-left: 2px;
+    height: 21%;
+    width: 100%;
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.price_area {
+    margin-top: 45px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    height: 90px;
+    width: 31%;
+    position: relative;
+    display: flex;
+}
+
+.item_discount{
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 45%;
+    width: 27%;
+    position: absolute;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: rgb(111, 112, 107);
+}
+
+.item_price{
+    margin-top: 0px;
+    margin-left: 52.4px;
+    height: 22.5%;
+    width: 27%;
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(111, 112, 107);
+}
+
+.item_newprice{
+    margin-top: 19px;
+    margin-left: 52.4px;
+    height: 22.5%;
+    width: 27%;
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(111, 112, 107);
+}
+
+.item_add_cart{
+    margin-top: 0px;
+    margin-left: 105.5px;
+    height: 45%;
+    width: 46%;
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(151, 202, 164);
+}
+
+.item_remove {
+    margin-top: 70px;
+    margin-left: 127.5px;
+    height: 20%;
+    width: 30%;
+    position: absolute;
+    font-size: xx-small;
+}
+
+.item_add_date {
+    margin-top: 70px;
+    margin-left: 33.5px;
+    height: 20%;
+    width: 50%;
+    position: absolute;
+    font-size: 12px;
+} */

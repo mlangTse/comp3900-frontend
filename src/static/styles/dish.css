@@ -1,0 +1,339 @@
+.dish_container {
+    background-color: rgba(253, 249, 249, 0.493);
+    height: 116px;
+    position: relative;
+    margin-top: 15px;
+    display: flex;
+    border-radius: 20px;
+      }
+.eatery_area {
+    height: 26px;
+    width: 18%;
+    margin-left: 12px;
+    position: absolute;
+    display: flex;
+     
+}
+
+.dish_eatery_name{
+    height: 24%;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+}
+
+.dish_image_area {
+    height: 100%;
+    width: 120px;
+    position: relative;
+      }
+
+.dish_image {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.dish_info_area {
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 100px;
+    width: 260.49px;
+    position: relative;
+    display: flex;
+      }
+.dish_price_area {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    height: 80px;
+    width: 194.8px;
+    position: relative;
+    display: flex;
+      }
+
+
+.dish_title {
+    height: 34%;
+    width: 100%;
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.dish_desc {
+    height: 50%;
+    width: 100%;
+    margin-left: 2px;
+    margin-top: 28px;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+}
+.dish_energe {
+    height: 20%;
+    width: 100%;
+    margin-left: 2px;
+    margin-top: 80px;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+}
+.dish_rating {
+    margin-top: 75px;
+    margin-left: 2px;
+    position: absolute;
+    font-size:xx-small;
+}
+
+.dish_date {
+    margin-top: 50px;
+    margin-left: 2px;
+    height: 21%;
+    width: 100%;
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.dish_price{
+    /* text-decoration: line-through; */
+    margin-top: 50px;
+    margin-left: 30px;
+    height: 60px;
+    width: 90%;
+    position: absolute;
+    font-size: x-large;
+    font-weight: bold;
+      }
+
+.btn_area {
+  height: 60px;
+}
+
+.add_dishbtn {
+  margin-left: 235px;
+  margin-bottom: 30px;
+  width: 150px;
+  height: 55px;
+  color: white;
+  background-color: rgb(32, 197, 202);
+  font-size: larger;
+  border-radius: 10px;
+}
+
+.dish_newprice{
+    margin-top: 19px;
+    position: absolute;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.dish_act_zoom {
+    height: 80px;
+    width: 133.38px;
+    position: relative;
+     
+    display: flex;
+}
+
+.dish_add {
+    margin-top: 10px;
+    margin-left: 87px;
+    width: 20%;
+    position: absolute;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.input_num {
+    margin-top: 10px;
+    margin-left: 23.3px;
+    width: 49%;
+    position: absolute;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.dish_minus {
+    margin-top: 10px;
+    width: 20%;
+    position: absolute;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.dish_rest {
+    margin-top: 35px;
+    margin-left: 26px;
+    position: absolute;
+    width: 60px;
+    height: 23px;
+
+    font-size: xx-small;
+    font-weight: bold;
+}
+
+.dish_add_wish{
+    margin-top: 40px;
+    margin-left: 35.5px;
+    height: 25%;
+    width: 70%;
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(151, 202, 164);
+}
+
+.dish_remove {
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 30%;
+    width: 50%;
+    position: absolute;
+    font-size: xx-small;
+    border-radius: 20px;
+}
+
+.dish_totalprice {
+    height: 20px;
+    width: 60px;
+    position: absolute;
+    margin-top: 10px;
+    font-size:small;
+    font-weight:bold;
+}
+
+.dish_act_area {
+    height: 80px;
+    width: 126.53px;
+    position: relative;
+    display: flex;
+    margin-top: 25px;
+      }
+
+.page_act_area {
+    height: 21px;
+    width: 651px;
+}
+
+.page_total_price {
+    height:21px;
+    width: 102px;
+    position: absolute;
+    margin-left: 470px;
+     
+}
+
+.page_add_dish {
+    height:21px;
+    width: 90px;
+    margin-left: 587px;
+    text-align: center;
+    position: absolute;
+    color: rgb(25, 180, 180);     
+}
+
+.dish_bar {
+    display: flex;
+    position: relative;
+    padding-bottom: 0;
+    padding-top: 8px;
+  }
+  
+  .dish_bar > nav {
+    margin-left: auto;
+    padding: 8px;
+  }
+  
+  .dish_bar button{
+    margin: 0 0 0 24px;
+  }
+  
+  .dish_list_item{
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .dish_list_item span {
+    border: 1px solid #000;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .dish_list_item .delete_btn {
+    display: none;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 35%;
+    border-radius: 50%;
+    background-color: red;
+    right: -1%;
+  }
+  
+  .create_dish_modal  {
+    background-color: #fff;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 150px;
+  }
+  
+  .create_dish_modal h2 {
+    font-size: x-large;
+    width: 280px;
+    margin: 0 auto;
+    font-weight: bold;
+    padding-bottom: 10px
+  }
+  
+  .create_dish_modal form {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  .create_dish_modal .form_submit_bar {
+    width: 180px;
+    margin: 0 auto;
+  }
+  
+  .create_dish_modal button {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .create_dish_modal .frequency {
+    padding-left: 15px;
+  }
+  
+  .create_dish_modal .frequency > span {
+    border: 1px solid #000;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+    text-align: center;
+    padding-top: 8px;
+    background-color: #fff;
+  }
+  
+  .create_dish_modal .frequency > span:hover{
+    background-color: greenyellow;
+  }
+  
+  .create_dish_modal .start_date {
+    width: 200px;
+    display: inline-block;
+  }
+  
+  .create_dish_modal .expire_date {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+  }

@@ -1,0 +1,28 @@
+footer {
+  max-width: 1028px;
+  height: 180px;
+}
+
+.footer_container {
+  border-top: 1px solid rgb(233, 229, 229);
+  margin-top: 80px;
+  bottom: 0;
+  position: absolute;
+}
+
+.footer_container div {
+  padding-top: 20px;
+  padding-right: 30px;
+  height: 120px;
+  float: left;
+}
+
+.footer_container div span {
+  font-size: medium;
+  font-weight: bold;
+  display: block;
+}
+
+.footer_container div a {
+  display: block;
+}

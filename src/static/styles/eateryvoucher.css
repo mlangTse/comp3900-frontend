@@ -1,0 +1,102 @@
+.voucher_bar {
+  display: flex;
+  position: relative;
+  padding-bottom: 0;
+  padding-top: 8px;
+}
+
+.voucher_bar > nav {
+  margin-left: auto;
+  padding: 8px;
+}
+
+.voucher_bar button{
+  margin: 0 0 0 24px;
+}
+
+.voucher_list_item{
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+}
+
+.voucher_list_item span {
+  border: 1px solid #000;
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+}
+
+.voucher_list_item .delete_btn {
+  display: none;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 35%;
+  border-radius: 50%;
+  background-color: red;
+  right: -1%;
+}
+
+.create_voucher_modal  {
+  background-color: #fff;
+  width: 44%;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.create_voucher_modal h2 {
+  font-size: x-large;
+  width: 280px;
+  margin: 0 auto;
+  font-weight: bold;
+  padding-bottom: 10px
+}
+
+.create_voucher_modal form {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.create_voucher_modal .form_submit_bar {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.create_voucher_modal button {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.create_voucher_modal .frequency {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.create_voucher_modal .frequency > span {
+  border: 1px solid #000;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 10px;
+  text-align: center;
+  padding-top: 8px;
+  background-color: #fff;
+}
+
+.create_voucher_modal .frequency > span:hover{
+  background-color: greenyellow;
+}
+
+.create_voucher_modal .start_date {
+  width: 300px;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.create_voucher_modal .expire_date {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+}

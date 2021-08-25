@@ -1,0 +1,70 @@
+.eatery_profile_menu_header {
+  max-width: 1228px;
+}
+.eatery_name {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.eatery_name .menu_btn {
+  width: 200px;
+  font-weight: bold;
+  font-size: xx-large;
+  background-color: #fff;
+  border: none;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.fa {
+  display: inline-block;
+  padding-left: 8px;
+  font: normal normal normal 14px/1;
+  font-family: FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.fa::before {
+  content: "\f0d7";
+}
+
+.eatery_dropdown_menu {
+  display: none;
+  z-index: 9999;
+  width: 150px;
+  position: absolute;
+  border: 1px solid #000;
+  background-color: #fff;
+  margin-left: 25px;
+}
+
+.eatery_dropdown_menu button {
+  padding: 5px;
+  font-size: medium;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+  border: none;
+}
+
+.eatery_dropdown_menu button:hover{
+  text-decoration: underline;
+}
+
+.eatery_profile_menu {
+  width: 700px;
+  padding-bottom: 20px;
+  margin: 0 auto
+}
+
+.eatery_profile_menu a {
+  font-size: large;
+  padding-left: 70px;
+}
+
+.eatery_profile_menu a:hover {
+  text-decoration-color: underline greenyellow;
+  text-decoration: underline;
+}

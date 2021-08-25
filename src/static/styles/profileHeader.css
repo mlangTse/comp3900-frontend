@@ -1,0 +1,24 @@
+.profile_menu_header {
+  max-width: 1228px;
+}
+
+.profile_menu_header h1 {
+  font-weight: bold;
+  font-size: xx-large;
+  padding: 10px;
+}
+
+.profile_menu {
+  width: 600px;
+  padding-bottom: 20px;
+}
+
+.profile_menu a {
+  font-size: large;
+  padding-left: 70px;
+}
+
+.profile_menu a:hover {
+  text-decoration-color: underline greenyellow;
+  text-decoration: underline;
+}

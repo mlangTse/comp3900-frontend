@@ -1,0 +1,83 @@
+.eaterydish_container {
+    background-color: rgba(253, 249, 249, 0.493);
+    width: 500px;
+    height: 101.17px;
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.eaterydish_list {
+    width: 1100px;
+}
+.eaterydish_image_area {
+    height: 100%;
+    width: 120px;
+    position: relative;
+}
+
+.eaterydish_image {
+    height: 100%;
+    width: 100%;
+}
+
+.dish_info_area {
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 100px;
+    width: 260.49px;
+    position: relative;
+    display: flex;
+      }
+.dish_price_area {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    height: 80px;
+    width: 194.8px;
+    position: relative;
+    display: flex;
+      }
+
+
+.dish_title {
+    height: 34%;
+    width: 100%;
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.dish_desc {
+    height: 50%;
+    width: 100%;
+    margin-left: 2px;
+    margin-top: 28px;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.dish_price{
+    /* text-decoration: line-through; */
+    margin-top: 50px;
+    margin-left: 30px;
+    height: 60px;
+    width: 90%;
+    position: absolute;
+    font-size: x-large;
+    font-weight: bold;
+      }
+
+.dish_totalprice {
+    height: 20px;
+    width: 60px;
+    position: absolute;
+    margin-top: 10px;
+    font-size:small;
+    font-weight:bold;
+}
+
+

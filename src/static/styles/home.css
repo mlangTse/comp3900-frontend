@@ -1,0 +1,96 @@
+.item_card {
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.item_card_img {
+  width:280px;
+  height:160px;
+  border-radius: 0.75em;
+}
+
+.item_card_title {
+  width:280px;
+  font-weight: bold;
+  font-size: medium;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.item_card_address {
+  font-size: small;
+  display: block;
+}
+
+.item_card_price {
+  font-size: large;
+  display: inline-block;
+  text-decoration: line-through;
+}
+
+.item_card_discount {
+  color: red;
+  font-size: x-large;
+  font-weight: bold;
+  padding-left: 3px;
+}
+
+.item_card_description {
+  width: 280px;
+  white-space: nowrap;
+  font-size: small;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.recommendation{
+  list-style: none;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+.recommendation:hover .right_btn, .recommendation:hover .left_btn {
+  z-index: 9999;
+  display: block;
+}
+
+.recommendation > button:hover {
+  cursor: pointer;
+  box-shadow: 15px -15px 0 0 rgb(0, 0, 0, 0.8)  inset;
+}
+
+.recommend_list {
+  scroll-behavior: smooth;
+  list-style: none;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.recommend_list > .item_card {
+  width: 380px;
+  height: 350px;
+}
+
+.recommend_list  > .item_card > img{
+  width: 360px;
+  height: 200px;
+  border-radius: 0.75em;
+}
+
+.css-2b097c-container {
+  display: inline-block;
+  margin-bottom: 10px;
+}

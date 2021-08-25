@@ -1,0 +1,116 @@
+.eatery_body {
+  margin-bottom: 10px;
+  display: flex;
+  position: relative;
+}
+
+.eatery_body:hover .right_btn, .eatery_body:hover .left_btn {
+  z-index: 9999;
+  display: block;
+}
+
+.eatery_image_list {
+  scroll-behavior: smooth;
+  list-style: none;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+}
+
+.eatery_image_list img {
+  height: 500px;
+  border-radius: 1%;
+  padding-right: 20px;
+}
+
+.left_btn, .right_btn {
+  border: none;
+  display: none;
+  position: absolute;
+  top: 45%;
+  width: 50px;
+  height: 50px;
+  line-height: 30px;
+  cursor: pointer;
+  background-color:transparent;
+  box-shadow: 15px -15px 0 0 rgb(0, 0, 0, 0.4)  inset;
+}
+
+.left_btn {
+  left: 15px;
+  transform: rotate(45deg);
+}
+
+.right_btn {
+  right: 15px;
+  transform: rotate(225deg);
+}
+
+.eatery_info {
+  width: 66.7%;
+}
+
+.eatery_info #eatery_title {
+  margin-bottom: 100px;
+}
+
+.eatery_info #eatery_title h1{
+  font-size: 2.6rem;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.eatery_vouchers_bar {
+  width: 33.3%;
+}
+
+.eatery_vouchers {
+  padding: 10px;
+  margin-left: 20px;
+  border: 1px solid rgb(230, 223, 223);
+}
+
+.eatery_vouchers_list div {
+  cursor: pointer;
+}
+
+.eatery_vouchers_list > div {
+  padding: 10px;
+}
+
+.eatery_vouchers_list > div:hover {
+  border: 1px solid #1890ff;
+  cursor: pointer;
+}
+
+.eatery_vouchers_list .title {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.eatery_vouchers_list .price_container {
+  font-size: large;
+}
+
+.eatery_vouchers_list .price_container span {
+  padding-right: 3px;
+}
+.eatery_vouchers_list .price_container .price {
+  text-decoration: line-through;
+}
+
+.eatery_vouchers_list .price_container .discount {
+  color: #318200
+}
+
+.eatery_vouchers_list .price_container .off {
+  font-size: small;
+  color: #318200;
+  background-color: #eafcde;
+}
+
+.eatery_vouchers_list .bought {
+  display: block;
+  font-size: small;
+  color: #707174;
+}

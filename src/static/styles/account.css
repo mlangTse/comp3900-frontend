@@ -1,0 +1,43 @@
+.payment h2 {
+    font-weight: bold;
+    font-size: x-large;
+    padding: 10px;
+}
+
+.payment p  {
+    font-weight: bold;
+    font-size: x-large;
+    padding: 10px;
+}
+
+.payment {
+    width: 600px;
+    padding-bottom: 20px;
+}
+
+.payment a {
+    font-size: large;
+    padding-left: 40px;
+}
+
+.payment .payment_method {
+    position: absolute;
+}
+.payment .payment_method div {
+  margin-left: 30px;
+}
+
+.payment_balance {
+    border-bottom: 1px solid rgb(8, 8, 8);
+}
+
+.payment img {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+}
+
+.payment a:hover {
+    text-decoration-color: underline rgb(88, 97, 76);
+    text-decoration: underline;
+}

@@ -1,0 +1,40 @@
+.Info_card {
+  border: 1px solid #000;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.map {
+  height: 300px;
+  border-bottom: 1px solid #000;
+}
+
+.addrDetail {
+  height: 100px;
+  border-bottom: 1px solid #000;
+  display: flex;
+}
+
+.CommDetail {
+  height: 60px;
+  display: flex;
+}
+
+.CommDetail *{
+	vertical-align: baseline;
+}
+
+.CommDetail div {
+  width: 26%;
+  padding: 10px 10px;
+  margin-right: 10px;
+  font-size: medium;
+}
+
+.CommDetail div img{
+  margin-right: 10px;
+}
+
+.CommDetail div a{
+  margin-right: 10px;
+}
